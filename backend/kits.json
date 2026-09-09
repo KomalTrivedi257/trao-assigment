@@ -1,0 +1,691 @@
+{
+  "version": "1.0",
+  "generated_at": "2026-09-09T10:23:00.408Z",
+  "total_cases": 2,
+  "successful": 2,
+  "failed": 0,
+  "results": [
+    {
+      "id": "case-1",
+      "status": "ok",
+      "started_at": "2026-09-09T10:21:01.600Z",
+      "completed_at": "2026-09-09T10:21:35.617Z",
+      "kit": {
+        "source": {
+          "company": "",
+          "company_url": "https://www.wipro.com/",
+          "role": "React Developer",
+          "location": "",
+          "jd_chars": 198,
+          "researched_at": "2026-09-09T10:21:35.616Z",
+          "pages_used": [
+            "https://www.wipro.com/",
+            "https://careers.wipro.com",
+            "https://www.wipro.com/platforms-and-software-products/",
+            "https://www.wipro.com/platforms-and-software-products/",
+            "https://www.wipro.com/about-us/",
+            "https://www.wipro.com/about-us/awards-and-recognitions/"
+          ]
+        },
+        "company_brief": {
+          "summary": "Wipro is a global AI‑powered technology services and consulting company with over $10.5 B in annual revenue, 240 000+ employees, and a presence in 65 countries. It focuses on digital transformation, cloud, cybersecurity, data analytics, and engineering solutions while committing to net‑zero emissions by 2040 and investing 66 % of its economic interest in philanthropy.",
+          "what_they_do": "Wipro delivers consulting‑led, AI‑powered technology services—including cloud, cybersecurity, data & analytics, digital experiences, engineering, software and platform development, and industry‑specific solutions—to clients worldwide.",
+          "sources": [
+            "https://www.wipro.com/",
+            "https://careers.wipro.com",
+            "https://www.wipro.com/platforms-and-software-products/",
+            "https://www.wipro.com/about-us/",
+            "https://www.wipro.com/about-us/awards-and-recognitions/"
+          ]
+        },
+        "role": {
+          "title": "React Developer",
+          "seniority": "mid-level",
+          "responsibilities": [
+            "Develop and maintain React applications",
+            "Implement UI components using JavaScript, HTML, and CSS",
+            "Consume REST APIs and integrate data into the UI",
+            "Use Git for version control and collaboration"
+          ],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Strong knowledge of React and its core principles",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r2",
+              "text": "Proficiency in JavaScript (ES6+), HTML, and CSS",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r3",
+              "text": "Experience with consuming RESTful APIs",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r4",
+              "text": "Familiarity with Git for version control",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r5",
+              "text": "Good communication skills",
+              "kind": "behavioural",
+              "priority": "must"
+            },
+            {
+              "id": "r6",
+              "text": "Strong problem solving ability",
+              "kind": "behavioural",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Explain your experience with React.",
+            "answer_outline": "Mention components, hooks, state management and practical project experience.",
+            "difficulty": 2,
+            "id": "q1",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "How do you manage state in a large React application?",
+            "answer_outline": "Discuss useState, useReducer, context, Redux, or other patterns.",
+            "difficulty": 2,
+            "id": "q2",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "Describe your proficiency with ES6+ JavaScript features.",
+            "answer_outline": "List features like arrow functions, destructuring, promises, async/await, modules.",
+            "difficulty": 2,
+            "id": "q3",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "How would you optimize CSS for a responsive web page?",
+            "answer_outline": "Use media queries, flexbox/grid, mobile-first approach, performance considerations.",
+            "difficulty": 2,
+            "id": "q4",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "technical",
+            "prompt": "Explain how you consume a RESTful API in a React app.",
+            "answer_outline": "Use fetch/axios, handle async, error handling, state updates.",
+            "difficulty": 2,
+            "id": "q5",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "technical",
+            "prompt": "How do you handle pagination when fetching data from a REST API?",
+            "answer_outline": "Use query params, server-side pagination, client-side handling, infinite scroll.",
+            "difficulty": 2,
+            "id": "q6",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r4"
+            ],
+            "category": "technical",
+            "prompt": "Describe your experience using Git for version control.",
+            "answer_outline": "Branching, merging, pull requests, rebasing, conflict resolution.",
+            "difficulty": 1,
+            "id": "q7",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r4"
+            ],
+            "category": "technical",
+            "prompt": "How do you resolve merge conflicts in Git?",
+            "answer_outline": "Use git status, edit files, stage, commit, use merge tools.",
+            "difficulty": 1,
+            "id": "q8",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r5"
+            ],
+            "category": "behavioural",
+            "prompt": "Give an example of a time you had to communicate complex technical information to a non-technical stakeholder.",
+            "answer_outline": "Describe situation, approach, outcome.",
+            "difficulty": 1,
+            "id": "q9",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r5"
+            ],
+            "category": "behavioural",
+            "prompt": "How do you ensure clear communication within a development team?",
+            "answer_outline": "Regular stand-ups, documentation, code reviews, clarity.",
+            "difficulty": 1,
+            "id": "q10",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r6"
+            ],
+            "category": "behavioural",
+            "prompt": "Describe a challenging problem you solved and the steps you took.",
+            "answer_outline": "Define problem, analyze, design solution, implement, test.",
+            "difficulty": 2,
+            "id": "q11",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r6"
+            ],
+            "category": "behavioural",
+            "prompt": "How do you approach debugging a complex issue?",
+            "answer_outline": "Reproduce, isolate, use logs, debugging tools, systematic testing.",
+            "difficulty": 2,
+            "id": "q12",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          }
+        ],
+        "flashcards": [
+          {
+            "front": "What are React's core principles?",
+            "back": "React follows component-based architecture, unidirectional data flow, and uses a virtual DOM for efficient updates.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "id": "f1"
+          },
+          {
+            "front": "What JavaScript features are essential for modern web development?",
+            "back": "ES6+ features such as arrow functions, destructuring, template literals, let/const, and modules.",
+            "requirement_ids": [
+              "r2"
+            ],
+            "id": "f2"
+          },
+          {
+            "front": "How do you consume a RESTful API in React?",
+            "back": "Use fetch or axios to make HTTP requests, handle responses, and update component state.",
+            "requirement_ids": [
+              "r3"
+            ],
+            "id": "f3"
+          },
+          {
+            "front": "What is Git used for?",
+            "back": "Git is a distributed version control system that tracks changes, enables branching, merging, and collaboration.",
+            "requirement_ids": [
+              "r4"
+            ],
+            "id": "f4"
+          },
+          {
+            "front": "Why are communication skills important for a developer?",
+            "back": "They enable clear collaboration, effective requirement gathering, and smooth teamwork.",
+            "requirement_ids": [
+              "r5"
+            ],
+            "id": "f5"
+          },
+          {
+            "front": "How do you approach problem solving in coding?",
+            "back": "Break the problem into smaller parts, analyze, prototype, test, and iterate.",
+            "requirement_ids": [
+              "r6"
+            ],
+            "id": "f6"
+          }
+        ],
+        "schedule": {
+          "days_available": 5,
+          "days": [
+            {
+              "day": 1,
+              "focus": "technical + behavioural",
+              "question_ids": [
+                "q1",
+                "q9",
+                "q2",
+                "q10"
+              ],
+              "minutes": 60
+            },
+            {
+              "day": 2,
+              "focus": "technical",
+              "question_ids": [
+                "q3",
+                "q4"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 3,
+              "focus": "technical",
+              "question_ids": [
+                "q5",
+                "q6"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 4,
+              "focus": "behavioural",
+              "question_ids": [
+                "q11",
+                "q12"
+              ],
+              "minutes": 30
+            },
+            {
+              "day": 5,
+              "focus": "technical",
+              "question_ids": [
+                "q7",
+                "q8"
+              ],
+              "minutes": 30
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      }
+    },
+    {
+      "id": "case-2",
+      "status": "ok",
+      "started_at": "2026-09-09T10:21:35.617Z",
+      "completed_at": "2026-09-09T10:23:00.408Z",
+      "kit": {
+        "source": {
+          "company": "",
+          "company_url": "https://www.microsoft.com/",
+          "role": "Frontend Developer",
+          "location": "",
+          "jd_chars": 94,
+          "researched_at": "2026-09-09T10:23:00.407Z",
+          "pages_used": [
+            "https://www.microsoft.com/",
+            "https://careers.microsoft.com/",
+            "https://www.microsoft.com/en-in/education/products/teams",
+            "https://www.microsoft.com/en-in/microsoft-365/buy/compare-all-microsoft-365-products?icid=mscom_marcom_H1a_M365Compare2026",
+            "https://www.microsoft.com/en-in/microsoft-products-and-apps",
+            "https://www.microsoft.com/en-in/education/products/microsoft-365"
+          ]
+        },
+        "company_brief": {
+          "summary": "Microsoft is a global technology company that offers cloud computing, productivity software, AI-powered tools, gaming consoles, devices, security, and education solutions.",
+          "what_they_do": "They develop and sell software and services such as Microsoft 365, Azure, Windows, Surface, Xbox, and AI solutions like Copilot, and provide security, education, and developer tools.",
+          "sources": [
+            "https://www.microsoft.com/",
+            "https://careers.microsoft.com/",
+            "https://www.microsoft.com/en-in/education/products/teams",
+            "https://www.microsoft.com/en-in/microsoft-365/buy/compare-all-microsoft-365-products?icid=mscom_marcom_H1a_M365Compare2026",
+            "https://www.microsoft.com/en-in/microsoft-products-and-apps",
+            "https://www.microsoft.com/en-in/education/products/microsoft-365"
+          ]
+        },
+        "role": {
+          "title": "Frontend Developer",
+          "seniority": "",
+          "responsibilities": [
+            "Develop and maintain frontend components using React, JavaScript, and CSS",
+            "Integrate with REST APIs",
+            "Use Git for version control"
+          ],
+          "requirements": [
+            {
+              "id": "r1",
+              "text": "Experience with React",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r2",
+              "text": "Proficiency in JavaScript",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r3",
+              "text": "Strong CSS skills",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r4",
+              "text": "Experience consuming REST APIs",
+              "kind": "technical",
+              "priority": "must"
+            },
+            {
+              "id": "r5",
+              "text": "Familiarity with Git version control",
+              "kind": "technical",
+              "priority": "must"
+            }
+          ]
+        },
+        "questions": [
+          {
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "Describe how you structure a React component for reusability.",
+            "answer_outline": "Explain component props, state, hooks, and composition.",
+            "difficulty": 2,
+            "id": "q1",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r1"
+            ],
+            "category": "technical",
+            "prompt": "How do you manage state in a large React application?",
+            "answer_outline": "Discuss Redux, Context API, or other state libraries and patterns.",
+            "difficulty": 3,
+            "id": "q2",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "Which ES6+ features do you use most frequently in production code?",
+            "answer_outline": "Mention arrow functions, destructuring, spread/rest, async/await, modules.",
+            "difficulty": 2,
+            "id": "q3",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r2"
+            ],
+            "category": "technical",
+            "prompt": "Explain how you handle asynchronous operations in JavaScript.",
+            "answer_outline": "Talk about callbacks, promises, async/await, error handling.",
+            "difficulty": 2,
+            "id": "q4",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "technical",
+            "prompt": "How do you approach responsive layout design with CSS?",
+            "answer_outline": "Use media queries, flexbox, grid, mobile-first strategy.",
+            "difficulty": 2,
+            "id": "q5",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r3"
+            ],
+            "category": "technical",
+            "prompt": "What CSS preprocessors or methodologies have you used?",
+            "answer_outline": "Sass/LESS, BEM, OOCSS, SMACSS, CSS Modules.",
+            "difficulty": 2,
+            "id": "q6",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r4"
+            ],
+            "category": "technical",
+            "prompt": "Describe how you authenticate API requests in a client application.",
+            "answer_outline": "Use tokens (JWT), OAuth, header injection, secure storage.",
+            "difficulty": 3,
+            "id": "q7",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r4"
+            ],
+            "category": "technical",
+            "prompt": "How do you handle API errors and retries in your code?",
+            "answer_outline": "Implement error boundaries, retry logic, exponential backoff, user feedback.",
+            "difficulty": 2,
+            "id": "q8",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r5"
+            ],
+            "category": "technical",
+            "prompt": "Explain your branching strategy when working with Git in a team.",
+            "answer_outline": "Feature branches, develop/main, pull requests, GitFlow.",
+            "difficulty": 2,
+            "id": "q9",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          },
+          {
+            "requirement_ids": [
+              "r5"
+            ],
+            "category": "technical",
+            "prompt": "How do you resolve merge conflicts in Git?",
+            "answer_outline": "Use diff tools, understand conflict markers, test after merge, communicate.",
+            "difficulty": 2,
+            "id": "q10",
+            "state": {
+              "generated": true,
+              "edited": false,
+              "pinned": false
+            }
+          }
+        ],
+        "flashcards": [
+          {
+            "front": "What is React?",
+            "back": "React is a JavaScript library for building user interfaces with reusable components.",
+            "requirement_ids": [
+              "r1"
+            ],
+            "id": "f1"
+          },
+          {
+            "front": "What is JavaScript?",
+            "back": "JavaScript is a dynamic, interpreted language used for web development, enabling interactive client-side behavior.",
+            "requirement_ids": [
+              "r2"
+            ],
+            "id": "f2"
+          },
+          {
+            "front": "How would you style a component in CSS?",
+            "back": "Use selectors, properties, and layout techniques like Flexbox or Grid to define appearance and responsiveness.",
+            "requirement_ids": [
+              "r3"
+            ],
+            "id": "f3"
+          },
+          {
+            "front": "How do you consume a REST API in React?",
+            "back": "Use fetch or axios to send HTTP requests, handle responses, and update component state.",
+            "requirement_ids": [
+              "r4"
+            ],
+            "id": "f4"
+          },
+          {
+            "front": "What is Git?",
+            "back": "Git is a distributed version control system that tracks changes, supports branching, and facilitates collaboration.",
+            "requirement_ids": [
+              "r5"
+            ],
+            "id": "f5"
+          }
+        ],
+        "schedule": {
+          "days_available": 3,
+          "days": [
+            {
+              "day": 1,
+              "focus": "technical",
+              "question_ids": [
+                "q7",
+                "q5",
+                "q2",
+                "q8"
+              ],
+              "minutes": 60
+            },
+            {
+              "day": 2,
+              "focus": "technical",
+              "question_ids": [
+                "q1",
+                "q9",
+                "q4",
+                "q10"
+              ],
+              "minutes": 60
+            },
+            {
+              "day": 3,
+              "focus": "technical",
+              "question_ids": [
+                "q3",
+                "q6"
+              ],
+              "minutes": 30
+            }
+          ]
+        },
+        "coverage": {
+          "uncovered_requirement_ids": [],
+          "passes": 1
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "case-1",
+    "jd": "We are looking for a React Developer with strong knowledge of React, JavaScript, HTML, CSS, REST APIs and Git. The candidate should have good communication skills and strong problem solving ability.",
+    "company_url": "https://www.wipro.com/",
+    "days": 5
+  },
+  {
+    "id": "case-2",
+    "jd": "Looking for a frontend developer with experience in React, JavaScript, CSS, REST APIs and Git.",
+    "company_url": "https://www.microsoft.com/",
+    "days": 3
+  }
+]
